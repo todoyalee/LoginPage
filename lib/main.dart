@@ -45,6 +45,9 @@ class myApp extends StatelessWidget {
 
             ElevatedButton(onPressed: ()=>{}, child: Icon(Icons.snowboarding),
             
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.red
+            ),
             )
 
           ]),
